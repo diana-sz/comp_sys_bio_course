@@ -1,0 +1,8 @@
+.Rproj.user/
+.Rhistory
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/
+old/
+**/old/
+689495c15bfa61b40475b8b9/
