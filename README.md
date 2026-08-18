@@ -10,7 +10,8 @@ Jupyter notebooks for kinetic modeling and simulation using [basiCO](https://bas
 
 - **`Transporter.ipynb`** — Carrier-mediated transport kinetics, including a custom (user-defined) rate law and a comparison to ordinary Michaelis-Menten kinetics. Reproduces the transporter-affinity results from [Bosdriesz et al. (2018)](https://doi.org/10.1038/s41598-018-23528-7), first with a small toy model and then with a realistic yeast glycolysis model.
 
-- **`Oscillations.ipynb`** —
+- **`Oscillations.ipynb`** — Explores principles of biochemical oscillators based on the paper by Novák & Tyson [Design principles of biochemical oscillators
+](https://doi.org/10.1038/nrm2530).
 
 
 ## Setup
