@@ -1,7 +1,21 @@
 name: teaching2
+
 channels:
   - conda-forge
+
 dependencies:
+  - python=3.12
+  - jupyterlab
+  - notebook
   - ipykernel
+  - ipywidgets
   - ipympl
-prefix: /home/users/dszeliova/.conda/envs/teaching2
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - pyyaml
+  - pip
+  - pip:
+      - copasi-basico==0.86
+      - python-copasi==4.46.300
