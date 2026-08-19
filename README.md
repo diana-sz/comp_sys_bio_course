@@ -15,6 +15,7 @@ Jupyter notebooks for kinetic modeling and simulation using [basiCO](https://bas
 
 - **`Parameter_estimation.ipynb`** — Introduces parameter estimation for ODE models. Fits kinetic parameters of a MAPK signalling cascade model (BIOMD0000000010, Kholodenko 2000) to a time-course dataset, first optimizing a single rate constant and then six parameters at once, using RMSE and the objective function value to track fit quality. 
 
+- **`Sensitivity_analysis.ipynb`** — Introduces local sensitivity analysis using a detailed kinetic model of yeast glycolysis (van Heerden et al.). Covers scaled vs. unscaled sensitivity coefficients, running a sensitivity analysis over all model parameters, and verifying a computed sensitivity by directly perturbing a parameter and comparing predicted vs. simulated changes. Also shows how to identify the parameters with the largest overall effect on the model, and the species whose concentrations are most robustly maintained.
 
 ## Setup
 
